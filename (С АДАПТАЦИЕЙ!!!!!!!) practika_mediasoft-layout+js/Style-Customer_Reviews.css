@@ -1,0 +1,89 @@
+@import "Style-Fonts.css";
+
+/* header */
+
+.customer_reviews {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 6%;
+}
+
+
+.customer_reviews-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+.header-customer_reviews h2 {
+    width: 100%;
+    height: 100%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 4em;
+    line-height: 7.25vh;
+    text-align: center;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0 auto;
+}
+
+.customer_reviews-overall_rating {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    gap: 3vh;
+    padding-top: 4.25vh;
+}
+
+.customer_reviews-overall_rating-estimation {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0 auto;
+}
+
+.customer_reviews-overall_rating-star {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    margin: 0 auto;
+}
+
+.customer_reviews-overall_rating-star svg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    text-align: left;
+}
+
+.figcaption-star {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: left;
+    top: 1px;
+
+    color: rgba(100, 100, 106, 1);
+}

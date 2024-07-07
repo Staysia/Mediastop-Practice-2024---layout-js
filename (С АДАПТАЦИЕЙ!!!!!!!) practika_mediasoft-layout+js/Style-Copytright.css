@@ -1,0 +1,137 @@
+@import "Style-Fonts.css";
+
+footer {
+    position: absolute;
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.copytright {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    top: 2600px;
+    padding-bottom: 112px;
+}
+
+@media screen and (max-width:1100px) {
+    .copytright {
+        top: 3000px;
+    }
+}
+
+
+.line {
+    position: absolute;
+    width: 100%;
+    height: 0px;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    left: 77.5%;
+    top: 52px;
+
+    font-family: 'Jost';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+}
+
+ @media screen and (max-width: 1270px) {
+    .info {
+        left: 3px;
+        padding-top: 4%;
+    }
+ }
+ @media screen and (max-width: 720px) {
+    .info {
+        left: 3px;
+        padding-top: 6%;
+    }
+ }
+ @media screen and (max-width: 450px) {
+    .info {
+        left: 3px;
+        padding-top: 10%;
+    }
+ }
+ @media screen and (max-width: 395px) {
+    .info {
+        left: 3px;
+        padding-top: 17%;
+    }
+ }
+
+.info_1 {
+    width: 119px;
+    height: 30px;
+
+    margin: 0;
+}
+
+.info_2 {
+    width: 7px;
+    height: 30px;
+
+    margin: 0;
+}
+
+.info_3 {
+    width: 127px;
+    height: 30px;
+
+    margin: 0;
+}
+
+.copytright-text {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 6px;
+
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 3px;
+    top: 52px;
+}
+
+.copytright-text_1 {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+
+    margin: 0;
+}
+
+.copytright-text_2 {
+    font-family: Jost;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+
+    margin: 0;
+}

@@ -1,0 +1,205 @@
+@import "Style-Fonts.css";
+
+body{
+    display: flex;
+    justify-content: center;
+    
+    flex-direction: column; /* Устанавливаем направление колонок */
+    align-items: center;
+
+    max-width: 1440px;
+
+    margin: 0 auto; 
+  }
+
+.Rectangle_1 {
+    display: flex;
+
+    flex-direction: column; /* Устанавливаем направление колонок */
+
+    width: 100%;
+    height: 100%;
+    min-height: 1046px;
+    
+    background: rgba(238, 239, 241, 1);
+}
+
+@media screen and (max-width: 990px) {
+    .Rectangle_1 {
+        min-height: 800px;
+    }
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+.header_logo {
+    margin-bottom: 1%;
+    width: 126px;
+    height: 50px;
+}
+
+.nav-header-menu_item {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+    color: rgba(27, 27, 29, 1);
+    margin: 1vh 3.25vh 1vh 0vh;
+}
+
+@media screen and (max-width: 720px) {
+    .nav-header-menu_item {
+        margin: 1vh 0vh 1vh 0vh;
+    }
+}
+
+.list-nav-header-menu_item{
+        float: right;
+}
+
+.nav-header-menu_item:hover{
+    color: rgba(100, 100, 106, 1);
+}
+
+@media (min-width: 1070px) {
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        position: absolute;
+        right: 0;
+    }
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.menu-button{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    gap: 20px;
+}
+
+.button-bxs-basket {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border-radius: 50%;
+
+    cursor: pointer;
+    border: none; 
+}
+
+.button-bxs-basket:hover {
+    background: rgba(243, 244, 245, 1);
+}
+
+.button-bxs-basket:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+}
+
+.button-bxs-basket svg {
+    width: 24px;
+    height: 24px;
+    top: 2.5px;
+    left: 2px;
+    opacity: 0px;
+    margin: 10%;
+    fill: rgba(27, 27, 29, 1);
+    transition: fill 0.5s; 
+}
+
+.button-BGV {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 208px;
+    height: 56px;
+
+    background-color: rgba(27, 27, 29, 1);
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    border-radius: 63px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-BGV:hover {
+    background: rgba(100, 100, 106, 1);
+}
+
+.button-BGV:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+}
+
+.button-BGV-text {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 8.2%;
+    
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar{
+    margin: 0.8vw 5vw 0vw 5vw;
+}
+
+@media screen and (max-width: 720px) {
+    .nav-header-menu_item {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .menu-button {
+        gap: 5%;
+    }
+    .button-BGV {
+        width: 10%;
+        height: 10%;
+    }
+    .button-BGV-text {
+        font-size: 10px;
+    }
+    .navbar-nav {
+        gap: 5%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .nav-header-menu_item {
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .nav-header-menu_item {
+        font-size: 10px;
+        line-height: 17px;
+    }
+    .button-BGV-text {
+        font-size: 7px;
+    }
+}

@@ -1,0 +1,193 @@
+@import "Style-Fonts.css";
+
+.our_ability {
+    width: 100%;
+    padding-top: 9.5%;
+}
+
+/* header */
+
+.header-text-our_ability {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    gap: 3vh;
+
+    justify-content: center;
+    width: 100%;
+}
+
+.header-text-our_ability h2 {
+    width: 80%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0 auto;
+}
+
+.header-text-our_ability p {
+    width: 50%;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0 auto;
+}
+
+/* menu */
+
+.menu-our_ability {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 3.75vh;
+    padding-top: 5%;
+
+    width: 100%;
+    height: auto;
+}
+
+/* windows */
+
+.menu-our_ability-window {
+    min-width: 394px;
+    max-height: 540px;
+    height: auto;
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    border-radius: 24px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.header-window {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1vh;
+
+    max-width: 316.55px;
+    height: auto;
+
+    padding: 10px;
+}
+
+.header-window h3 {
+    height: 52px;
+    padding-top: 13%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52.02px;
+    text-align: left;
+    color: rgba(27, 27, 29, 1);
+    margin: 0;
+}
+
+.header-window p {
+    width: 99%;
+    min-height: 70px;
+    padding-top: 13%;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34.68px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0;
+}
+
+.icon-window {   
+    width: 100%;
+
+    padding-top: 13%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.button-window {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    width: 225.39px;
+    height: 60px;
+  
+    top: 440px;
+
+    background: rgba(27, 27, 29, 1);
+    border-radius: 126px;
+    margin-bottom: 4vw;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-window-text {
+    width: 165px;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    padding-top: 4.5%;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.button-window:hover {
+    background-color: rgba(100, 100, 106, 1);
+ }
+
+ .button-window:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+ }
+
+@media screen and (max-width: 1097px) {
+    .menu-our_ability {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3.75vh;
+    
+        width: 100%;
+        height: auto;
+        top: 30%;
+    }
+}

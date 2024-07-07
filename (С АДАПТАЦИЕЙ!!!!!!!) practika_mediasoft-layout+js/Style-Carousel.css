@@ -1,0 +1,148 @@
+@import "Style-Fonts.css";
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding-top: 7%;
+
+    max-width: 1200px;
+    width: 100vw;
+
+}
+
+
+/* slide */
+
+.swiper-slide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  gap:30px;
+
+  max-width: 499.18px; 
+  height: 648px;
+
+  background: linear-gradient(142.42deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 0px 20px 60px rgba(163, 168, 179, 0.15);
+  filter: drop-shadow(0px 30px 60px rgba(163, 168, 179, 0.15));
+  
+  border-radius: 16px;
+}
+
+.card__status {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-block: 0 20px;
+}
+  
+  .card__heading {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card__content {
+    padding-top: 36px;
+    padding-left: 42.69px;
+    padding-right: 69.77px;
+    padding-bottom: 42px;
+  }
+
+  .card__content-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .card__content-header h2 {
+    width: auto;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+
+    margin: 0;
+}
+
+.card__content p {
+    width: 387px;
+    height: 180px;
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+
+    margin: 0;
+}
+.js-swiper{
+  width: 90%;
+}
+  /* button  */
+  .slider-wrapper {
+    display: flex;
+    position: relative;
+    padding-inline: 90px;
+    width: 100%;
+  }
+  
+  .button-arrow {
+    position: absolute;
+
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 1);
+    
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    z-index: 1;
+    border-radius: 50%;
+
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-arrow svg {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
+  
+  .button-arrow:hover svg {
+    stroke: #fff;
+  }
+  
+  .button-arrow--prev {
+    left: -10px;
+    top: 325px;
+  }
+  
+  .button-arrow--next {
+    right: -10px;
+    top: 325px;
+  }
+
+  .button-arrow--prev:hover, .button-arrow--next:hover {
+    background: rgba(243, 244, 245, 1);
+ }
+
+ .button-arrow--prev:active, .button-arrow--next:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+ }

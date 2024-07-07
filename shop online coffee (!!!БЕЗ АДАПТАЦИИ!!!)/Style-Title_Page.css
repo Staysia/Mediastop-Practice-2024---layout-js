@@ -1,0 +1,241 @@
+@import "Style-Fonts.css";
+
+/* left hand side */
+
+.title_page {
+    position: absolute;
+    width: 1240px;
+    height: 712px;
+    /* left: 100px; */
+    top: 204px;
+}
+
+.title_page-info {
+    position: absolute;
+    width: 626px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+}
+
+.title_page-info-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 60px;
+
+    position: absolute;
+    width: 597px;
+    height: 520px;
+    left: 0px;
+    top: 0px;
+}
+
+.title_page-info-header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px; 
+
+    width: 597px;
+    height: 520px;
+}
+
+.title_page-info-header-text h1 {
+    width: 597px;
+    height: 420px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 124px;
+    line-height: 140px;
+
+    margin: 0;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.title_page-info-header-text p {
+    width: 530px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    margin: 0;
+
+    color: rgba(100, 100, 106, 1);
+}
+
+.title_page-info-button_link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: 376px;
+    height: 70px;
+    left: 0px;
+    top: 580px;
+}
+
+.title_page-info-button-DA {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    width: 225px;
+    height: 70px;
+}
+
+.button-download_app {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 10px;
+
+    width: 225px;
+    height: 70px;
+
+    background-color: rgba(27, 27, 29, 1);
+    border-radius: 126px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-download_app:hover {
+    background-color: rgba(100, 100, 106, 1);
+}
+
+.button-download_app:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+ }
+
+.button-download_app-text {
+    width: 145px;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+.nav-shop_coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 121px;
+    height: 26px;
+}
+
+.nav-shop_coffee_item {
+    width: 121px;
+    height: 26px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.nav-shop_coffee_item:hover {
+    color: rgba(100, 100, 106, 1);
+}
+
+.nav-shop_coffee_item:active {
+    font-size: 17px;
+}
+
+/* left hand side */
+
+.header_coffee_cup {
+    position: absolute;
+    width: 680.25px;
+    height: 712px;
+    left: 560px;
+    top: 0px;
+    margin: 0 auto;
+}
+
+.mask_group {
+    position: absolute;
+    width: 508.28px;
+    height: 562.5px;
+    left: 689.91px;
+    top: 92px;
+    margin: 0 auto;
+}
+
+.rating_window_info {  
+    position: absolute;
+    width: 272.1px;
+    height: 140px;
+    left: 602.76px;
+    top: 391px;
+
+    background: rgba(255, 255, 255, 1);
+    border-radius: 24px;
+}
+
+.rating_window_info_stars{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 180px;
+    height: 36px;
+    
+    margin: 20px 68.78px 84px 23.32px;
+}
+
+.rating_window_info_text{
+    width: 232px;
+    height: 52px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 26px;
+
+    color: rgba(100, 100, 106, 1);
+
+    margin: -72px 16.78px 20px 23.32px;
+}
+
+.header_decoration{
+    position: absolute;
+    width: 139.94px;
+    height: 113px;
+    left: 1067.27px;
+    top: 31px;
+    margin: 0 auto;
+}

@@ -1,0 +1,399 @@
+@import "Style-Fonts.css";
+
+main {
+    position: absolute;
+    max-width: 1240px;
+    /* height: 794px; */
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.our_ability {
+    position: absolute;
+    width: 1240px;
+    height: 794px;
+    /* left: 100px; */
+    top: 1186px;
+}
+
+/* header */
+
+.header-text-our_ability {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: Fixed (700.87px)px;
+    height: Hug (164px)px;
+    left: 268.78px;
+    top: 0px;
+}
+
+.header-text-our_ability h2 {
+    width: 702px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0 auto;
+}
+
+.header-text-our_ability p {
+    width: 604px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0 auto;
+}
+
+/* menu */
+
+.menu-our_ability {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 30px;
+
+    position: absolute;
+    width: Fixed (1,240px)px;
+    height: Hug (540px)px;
+    left: 0px;
+    top: 254px;
+}
+
+/* catering */
+
+.menu-our_ability-catering {
+    width: 394px;
+    height: 540px;
+    left: -1;
+    gap: 0px;
+    opacity: 0px;
+
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    border-radius: 24px;
+}
+
+.header-catering {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: Fixed (316.55px)px;
+    height: Hug (130px)px;
+    left: 40.1px;
+    top: 40px;
+}
+
+.header-catering h3 {
+    width: 214px;
+    height: 52px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52.02px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0;
+}
+
+.header-catering p {
+    width: 316px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0 auto;
+}
+
+.icon-catering {   
+    position: absolute;
+    width: 150.38px;
+    height: 150px;
+    left: 121.31px;
+    top: 230px;
+    margin: 0 auto;
+}
+
+.button-catering {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225.39px;
+    height: 60px;
+    left: 84.72px;
+    top: 440px;
+
+    background: rgba(27, 27, 29, 1);
+    border-radius: 126px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-catering-text {
+    width: 165px;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+/* food */
+
+.menu-our_ability-food {
+    position: absolute;
+    width: 394px;
+    height: 540px;
+    left: 423px;
+    top: 0px;
+
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    border-radius: 24px;
+}
+
+.header-food {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: Fixed (318.55px)px;
+    height: Hug (130px)px;
+    left: 31.08px;
+    top: 40px;
+}
+
+.header-food h3 {
+    width: 152px;
+    height: 52px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0;
+}
+
+.header-food p {
+    width: 318px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0 auto;
+}
+
+.icon-food {
+    position: absolute;
+    width: 150.38px;
+    height: 150px;
+    left: 121.31px;
+    top: 230px;
+    margin: 0 auto;
+}
+
+.button-food {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225.57px;
+    height: 60px;
+    left: 84px;
+    top: 440px;
+
+    background: rgba(27, 27, 29, 1);
+    border-radius: 126px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-food-text {
+    width: 108px;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ability-gelato */
+
+.menu-our_ability-gelato {
+    position: absolute;
+    width: 394px;
+    height: 540px;
+    left: 847px;
+    top: 0px;
+
+    background: linear-gradient(152.09deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    box-shadow: 0px 30px 60px 0px rgba(163, 168, 178, 0.15);
+    border-radius: 24px;
+}
+
+.header-gelato {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: Fixed (318.55px)px;
+    height: Hug (130px)px;
+    left: 40.1px;
+    top: 40px;
+}
+
+.header-gelato h3 {
+    width: 179px;
+    height: 52px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: left;
+
+    color: rgba(27, 27, 29, 1);
+    margin: 0;
+}
+
+.header-gelato p {
+    width: 318px;
+    height: 70px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: left;
+
+    color: rgba(100, 100, 106, 1);
+    margin: 0 auto;
+}
+
+.icon-gelato {
+    position: absolute;
+    width: 150.38px;
+    height: 150px;
+    left: 121.31px;
+    top: 230px;
+    margin: 0 auto;
+}
+
+.button-gelato {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    position: absolute;
+    width: 225.57px;
+    height: 60px;
+    left: 84.21px;
+    top: 440px;
+
+    background: rgba(27, 27, 29, 1);
+    border-radius: 126px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-gelato-text {
+    width: 144px;
+    height: 30px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
+
+/* button styles */
+
+.button-catering:hover, .button-food:hover, .button-gelato:hover {
+    background-color: rgba(100, 100, 106, 1);
+ }
+
+ .button-catering:active,  .button-food:active,  .button-gelato:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+ }

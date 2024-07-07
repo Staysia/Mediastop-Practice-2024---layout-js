@@ -1,0 +1,234 @@
+@import "Style-Fonts.css";
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    font-family: "Jost";
+    font-style: normal;
+
+    max-width: 1440px;
+    min-height: 4789.18px;
+
+    gap: 0px;
+    opacity: 0px;
+    margin: 0 auto;
+  }
+
+/* .wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    max-width: 100%;
+    
+    margin: 35px auto 48px;
+    width: 1440px;
+  } */
+
+.Rectangle_1 {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 1046px;
+    left: 0px;
+    top: 0px;
+    
+    background: rgba(238, 239, 241, 1);
+}
+
+.header {   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+    gap: 358px;
+
+    position: absolute;
+    width: Fixed (1,240px)px;
+    height: Hug (56px)px;
+    /* left: 100px; */
+    top: 24px;
+}
+
+.header_logo {
+    margin: 3px 0px 3px 0px;
+    width: 126px;
+    width: 50px;
+}
+
+.nav-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+
+    margin: 0 auto;
+    left: 584px;
+    width: Hug (756px)px;
+    height: Hug (56px)px;
+}
+
+.nav-header-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    margin: 17px 0px 17px 0px;
+    width: Hug (441px)px;
+    height: Hug (22px)px;
+}
+
+.nav-header-menu_item_1 {
+    width: 73px;
+    height: 22px;
+
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.nav-header-menu_item_2 {
+    width: 61px;
+    height: 22px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.nav-header-menu_item_3 {
+    width: 50px;
+    height: 22px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.nav-header-menu_item_4 {
+    width: 128px;
+    height: 22px;
+
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21.68px;
+
+    color: rgba(27, 27, 29, 1);
+}
+
+.nav-header-menu_item_1:hover, .nav-header-menu_item_2:hover, .nav-header-menu_item_3:hover, .nav-header-menu_item_4:hover {
+    color: rgba(100, 100, 106, 1);
+}
+
+.nav-header-menu_item_1:active, .nav-header-menu_item_2:active, .nav-header-menu_item_3:active, .nav-header-menu_item_4:active {
+    font-size: 14px;
+}
+
+.menu-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+
+    width: Hug (284px)px;
+    height: Hug (56px)px;
+}
+
+.button-bxs-basket {
+    width: 56px;
+    height: 56px;
+    padding: 0;
+
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 12px 30px 0px rgba(205, 209, 214, 0.28);
+    border-radius: 50%;
+
+    cursor: pointer;
+    border: none; 
+}
+
+.button-bxs-basket:hover {
+    background: rgba(243, 244, 245, 1);
+ }
+
+ .button-bxs-basket:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+ }
+
+.button-bxs-basket svg {
+    width: 24px;
+    height: 24px;
+    top: 2.5px;
+    left: 2px;
+    opacity: 0px;
+    fill: rgba(27, 27, 29, 1);
+    transition: fill 0.5s; 
+}
+
+.button-BGV {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px;
+    gap: 10px;
+
+    width: 208px;
+    height: 56px;
+
+    background-color: rgba(27, 27, 29, 1);
+    box-shadow: 0px 30px 60px rgba(163, 168, 179, 0.15);
+    border-radius: 63px;
+
+    cursor: pointer;
+    border: none;
+}
+
+.button-BGV:hover {
+    background: rgba(100, 100, 106, 1);
+}
+
+.button-BGV:active {
+    box-shadow: 2px 2px 5px rgba(27, 27, 29, 1);
+}
+
+.button-BGV-text {
+    width: 148px;
+    height: 26px;
+
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    
+    text-transform: uppercase;
+
+    color: rgba(255, 255, 255, 1);
+}
